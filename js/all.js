@@ -49,8 +49,8 @@ $(document).ready(function($) {
 		//---------------------	
 		var wScroll = $(window).scrollTop();
 
-		$('.header_content').css('transform','translate(0,'+ - wScroll / 2 +'px)');
-		$('.fore-leg').css('transform','scale('+  (1 - wScroll / 4000) +') translate(0,'+ - wScroll / 50+'px)');
+		$('.header_content').css('transform','translate(-50%,'+ - wScroll / 0.8 +'px)');
+		$('.fore-leg').css('transform','scale('+  (1 + wScroll / 4000) +') translate(0,'+ wScroll / 2 +'px)');
 
 
 		if (wScroll > $('.product_pic').offset().top - $(window).height() / 1.3){
